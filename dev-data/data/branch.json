@@ -1,0 +1,42 @@
+[
+  {
+    "Branch": "Kanpur",
+    "Location": "Shanti Nagar, 208001",
+    "HOB": "Archana Nagavkar"
+  },
+  {
+    "Branch": "Solapur",
+    "Location": "Ashok Nagar, 413001",
+    "HOB": "Pranav Manvi"
+  },
+  {
+    "Branch": "Belgaum",
+    "Location": "Dalal Peth, 590001",
+    "HOB": "Rohit Mathapati"
+  },
+  {
+    "Branch": "Bagalkot",
+    "Location": "Mangalvar Peth, 587101",
+    "HOB": "Rahul Purohit"
+  },
+  {
+    "Branch": "Pune",
+    "Location": "Katraz, 111045",
+    "HOB": "Shantinath Shah"
+  },
+  {
+    "Branch": "Delhi",
+    "Location": "Sri Nagar, 110001",
+    "HOB": "Amit Lokhande"
+  },
+  {
+    "Branch": "Bhopal",
+    "Location": "Shivaji Nagar, 462001",
+    "HOB": "Sudarshan Mohire"
+  },
+  {
+    "Branch": "Chennai",
+    "Location": "Hari Nagar, 600001",
+    "HOB": "Mahavir Kasar"
+  }
+]
