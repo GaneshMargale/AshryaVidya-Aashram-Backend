@@ -3,6 +3,19 @@ const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
 exports.signup = catchAsync(async (req, res, next) => {
+  const name = req.body.currentUser;
+  const password = req.body.currentPassword;
+
+  if (!name || !password) {
+    return next(new AppError('Please provide name and password', 400));
+  }
+
+  const user = await User.findOne({ name }).select('+password');
+
+  if (!user || !(await user.correctPassword(password, user.password))) {
+    return next(new AppError('Incorrect name or password', 401));
+  }
+
   const newUser = await User.create({
     name: req.body.name,
     password: req.body.password,
